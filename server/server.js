@@ -44,3 +44,13 @@ app.set('io', io);
 
 const PORT = process.env.PORT || 5000;
 httpServer.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+
+
+// ✅ Correct way to run your project
+// 1. Backend (server)
+// cd server
+// npm run dev
+// 2. Frontend (client)
+// cd client
+// npm start
